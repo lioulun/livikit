@@ -36,10 +36,10 @@ class LivikitControl(BoxLayout):
         self.stop = Button(text='stop', size_hint_x=None, width=70)
         self.add_widget(self.stop)
 
-        self.save = Button(text='', size_hint_x=None, width=70)
+        self.save = Button(text='save', size_hint_x=None, width=70)
         self.add_widget(self.save)
 
-        self.path = TextInput(text='save', multiline=False, font_name=FONT_NAME)
+        self.path = TextInput(text='', multiline=False, font_name=FONT_NAME)
         self.add_widget(self.path)
 
         self.stop.disabled = True
