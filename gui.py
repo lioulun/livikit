@@ -152,11 +152,11 @@ class LivikitMain(BoxLayout):
             with open(self.head.path.text, 'w') as f:
                 f.write('\n'.join(self.lines))
 
-    def on_size(self, *args):
-        self.canvas.before.clear()
-        with self.canvas.before:
-            Color(0.7019, 0.7019, 0.7019, 1)
-            Rectangle(pos=self.pos, size=self.size)
+    # def on_size(self, *args):
+    #     self.canvas.before.clear()
+    #     with self.canvas.before:
+    #         Color(0.7019, 0.7019, 0.7019, 1)
+    #         Rectangle(pos=self.pos, size=self.size)
 
 
 class LivikitApp(App):
