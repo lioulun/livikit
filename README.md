@@ -26,3 +26,5 @@ pip install -r requirements.txt
 ```bash
 python gui.py
 ```
+
+![](/home/kk/Workspace/livikit/img/2020-06-10 23-51-41 的螢幕擷圖.png)
