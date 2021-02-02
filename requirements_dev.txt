@@ -1,7 +1,7 @@
 attrs==19.3.0
 auditok @ git+https://github.com/amsehili/auditok@271fd15dfb7a1e9da9eade6517cb4345eb56f096
 backcall==0.1.0
-bleach==3.1.5
+bleach==3.3.0
 certifi==2020.4.5.2
 cffi==1.14.0
 chardet==3.0.4
